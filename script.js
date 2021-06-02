@@ -12,9 +12,3 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;        
 }
-function principal() {
-  var x = document.principal.value
-  if (x == "") {
-    alert("Enter a positive number");
-    return false;
-  }
