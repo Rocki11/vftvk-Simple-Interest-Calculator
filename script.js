@@ -18,4 +18,3 @@ function principal() {
     alert("Enter a positive number");
     return false;
   }
-}
